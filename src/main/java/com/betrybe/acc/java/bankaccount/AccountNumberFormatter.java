@@ -7,7 +7,7 @@ import org.apache.commons.lang3.StringUtils;
  * AccountNumberFormatter.
  */
 public class AccountNumberFormatter {
-  final static int lengthNecessary = 6;
+  private static final int lengthNecessary = 6;
 
   /**
    * Formata o número da conta.
