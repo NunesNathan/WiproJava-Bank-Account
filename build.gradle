@@ -14,6 +14,7 @@ repositories {
 dependencies {
     testImplementation('org.junit.jupiter:junit-jupiter:5.5.2')
     testImplementation('org.junit.platform:junit-platform-engine:+')
+    implementation("org.apache.commons:commons-lang3:3.11")
 }
 
 test {
